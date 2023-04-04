@@ -1,0 +1,16 @@
+\input docstrip
+
+\keepsilent
+
+\askforoverwritefalse
+
+% You can easily add other options: "long" for instance
+% to creater longer versions of the CV or "confs" to
+% include conferences.
+
+\generate{%
+  \file{cv-fr.tex}{\from{cv.dtx}{fr}}% \from{cv.dtx}{fr,long}
+  \file{cv-en.tex}{\from{cv.dtx}{en}}% \fron{cv.dtx}{en,long}
+}
+
+\endbatchfile
